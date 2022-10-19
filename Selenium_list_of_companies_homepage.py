@@ -8,3 +8,5 @@ data = driver.find_elements(By.CSS_SELECTOR, "#top-gainers tbody tr td b")
 for datas in data:
     print(datas.text)
 driver.quit()
+ 
+# company list test
